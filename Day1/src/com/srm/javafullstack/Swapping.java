@@ -13,8 +13,7 @@ public void methswap(int a, int b)
 	System.out.println("Number 1: "+a);
 	System.out.println("Number 2: "+b);
 }
-public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public static void main(String[] args) {		
 	try {
 			Scanner sc= new Scanner(System.in);
 			System.out.println("Enter First Number ");
@@ -26,7 +25,7 @@ public static void main(String[] args) {
 		}
 	catch(Exception e) 
 	{
-			System.out.println("INVALID INPUT TYPE " +e);
+			System.out.println("INVALID INPUT TYPE" +e);
 	}
 	}
 
