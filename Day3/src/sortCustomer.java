@@ -45,7 +45,7 @@ public class sortCustomer{
 	static void sortmyData(ArrayList al)
 	{
 	Collections.sort(al,new nameSort().thenComparing(new ageSort()).reversed());
-	System.out.println(al);
+	System.out.println(al);  
 	}			
 	public static void main(String[] args) {
 		
